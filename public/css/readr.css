@@ -710,33 +710,33 @@ button::-moz-focus-inner {
 		background: #111;
 		color: #eee;
 	}
-	
+
 	.app-navbar .item-collapse.in {
 		display: block;
 	}
-	
+
 	.app-navbar .item-collapse .group {
 		float: none;
 		padding-bottom: 5px;
 		border-bottom: 1px solid #333;
 		margin: 0 0 5px;
 	}
-	
+
 	.app-navbar .item-collapse .group:last-child {
 		margin: 0;
 		border: none;
 	}
-	
+
 	.app-navbar .item-collapse li {
 		float: none;
 	}
-	
+
 	.app-navbar .item-collapse button,
 	.app-navbar .item-collapse a {
 		display: block;
 		width: 100%;
 	}
-	
+
 	.app-navbar .item-collapse .nav .active {
 		border: none;
 		background: #3498DB;
@@ -749,15 +749,16 @@ button::-moz-focus-inner {
 	input[type=text], input[type=password], input[type=email], input[type=url], textarea {
 		max-width: none;
 	}
-	
+
 	.app-navbar {
 		padding: 0 10px;
+		padding-top: 10px;
 	}
-	
+
 	.app-navbar .group {
 		margin-right: 0;
 	}
-	
+
 	.app-navbar .menu {
 		display: block;
 	}
@@ -765,6 +766,7 @@ button::-moz-focus-inner {
 	.app-body .col {
 		width: 100%;
 		right: 0;
+		top: 10px;
 		-webkit-transition-property: left;
 		-webkit-transition-duration: 200ms;
 		-webkit-transition-delay: 100ms;
@@ -775,55 +777,55 @@ button::-moz-focus-inner {
 		        transition-duration: 200ms;
 		        transition-delay: 100ms;
 	}
-	
+
 	.app-body .feeds {
 		left: -100%;
 		width: 90%;
 	}
-	
+
 	.app-body .entries {
 		left: 0;
 		border: none;
 	}
-	
+
 	.app-body .entry {
 		left: 100%;
 	}
-	
+
 	.app-body[data-mode=feeds] .feeds {
 		left: 0;
 	}
-	
+
 	.app-body[data-mode=feeds] .entries {
 		left: 90%;
 	}
-	
+
 	.app-body[data-mode=feeds] .entry {
 		left: 100%;
 	}
-	
+
 	.app-body[data-mode=entry] .entries {
 		left: -100%;
 	}
-	
+
 	.app-body[data-mode=entry] .entry {
 		left: 0;
 	}
-	
+
 	.form-item .form-label {
 		float: none;
 		width: auto;
 		margin: 0;
 	}
-	
+
 	.form-item .controls {
 		margin: 0;
 	}
-	
+
 	.form-login {
 		width: auto;
 	}
-	
+
 	.modal-content {
 		position: fixed;
 		top: 0;
